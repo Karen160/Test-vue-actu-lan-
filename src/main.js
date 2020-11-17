@@ -1,6 +1,12 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import Tab from './home.vue'
+import router from './router'
 
-createApp(App).mount('#app')
-createApp(Tab).mount('#tab')
+Vue.config.productionTip = false
+
+new Vue({
+	router,
+	render: (h) => h(App)
+}).$mount('#app')
+
