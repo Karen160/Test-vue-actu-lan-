@@ -44,6 +44,9 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
+*{
+    margin: 0 auto;
+    color: beige;
+}
 </style>
