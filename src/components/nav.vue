@@ -1,9 +1,9 @@
 <template>
     <nav>
-        <li>Home</li>
-        <li>About</li>
-        <li>Contact</li>
-        <li>Share</li>
+        <a href="">Home</a>
+        <a href="">About</a>
+        <a href="">Contact</a>
+        <a href="">Share</a>
     </nav>
 </template>
 
