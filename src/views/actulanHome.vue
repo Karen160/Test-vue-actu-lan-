@@ -1,9 +1,9 @@
 <template>
-  <navTest></navTest>
-  <div class="actulan">
-      <h1>Actu Lan</h1>
-  </div>
-  <foooter></foooter>
+    <navTest></navTest>
+    <div class="actulan">
+      
+    </div>
+    <foooter></foooter>
 </template>
 
 <script>
@@ -14,8 +14,8 @@ import navTest from '@/components/nav.vue'
 export default {
   name: 'actulan',
   components: {
+    navTest,
     foooter,
-    navTest
   }
 }
 </script>
