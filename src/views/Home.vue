@@ -19,8 +19,7 @@ import Gmap from '@/components/map.vue'
 export default {
   name: 'Home',
   components: {
-    HelloWorld,
-    foooter
+    HelloWorld
   }
 }
 </script>
