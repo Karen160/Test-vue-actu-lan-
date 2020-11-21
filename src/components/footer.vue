@@ -20,7 +20,7 @@ export default {
 
 <style scoped>
     div{
-        height: 75px;
+        height: 25px;
         background-color: #29AAD5;
         position: fixed;
         bottom: 0;
